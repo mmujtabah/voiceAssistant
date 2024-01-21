@@ -14,8 +14,8 @@ This is a simple voice assistant application built using Python and Tkinter. It 
 ## Prerequisites
 
 - Python 3.6 or higher
-- Required Python libraries (install using `pip install -r requirements.txt`)
-- Google API key for Generative AI (set as an environment variable)
+- Required Python libraries
+- Google API key for Generative AI
 
 ## Getting Started
 
