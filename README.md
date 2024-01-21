@@ -28,7 +28,7 @@ This is a simple voice assistant application built using Python and Tkinter. It 
 1. Click the "Start" button to activate the voice assistant.
 2. Issue voice commands, e.g., "Play music" or "What's the weather today?"
 3. The assistant will respond with text and spoken messages.
-4. Assistant can play videos or music on YouTube
+4. Assistant can play videos or music on YouTube.
 5. Program can be exited by saying "exit" keyword.
 
 ## Additional Notes
