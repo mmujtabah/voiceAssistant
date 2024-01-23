@@ -20,18 +20,18 @@ class VoiceAssistantApp:
     def __init__(self, master):
         self.window = master
         self.window.title("Voice Assistant")
-        self.window.geometry("800x600")  # Set window size
-        # Use a modern theme
+        self.window.geometry("800x600")
+
         style = ttk.Style()
         style.theme_use("clam")
 
-        # Set background color
+
         self.window.configure(bg="#f0f0f0")
 
         self.chat_box = scrolledtext.ScrolledText(master, width=80, height=30, state=tk.DISABLED, bg="#e0e0e0")
         self.chat_box.pack(pady=10)
 
-        # Increase button size and align horizontally
+ 
         button_font = tkFont.Font(family="Arial", size=10, weight="bold")
         self.start_button = tk.Button(master, text="Start", command=self.start_listening, bg="#4caf50", fg="white", width=15, height=2)
         self.start_button["font"] = button_font
